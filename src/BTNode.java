@@ -1,9 +1,9 @@
-public class Node {
+public class BTNode {
     
-    Node left, right;
+    BTNode left, right;
     int data;
 
-    public Node(int x)
+    public BTNode(int x)
     {
         data = x;
         left = null;
