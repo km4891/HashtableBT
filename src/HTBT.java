@@ -16,7 +16,7 @@ public class HTBT {
 
     public int getSize () {
 
-        System.out.println(size);
+        System.out.println("The size is: " + size);
         return size;
     }
 

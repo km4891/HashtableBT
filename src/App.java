@@ -2,11 +2,11 @@ public class App {
     public static void main(String[] args) throws Exception {
         
         HTBT h = new HTBT(11);
-        h.insert(10);
         h.insert(1);
-        h.insert(100);
-        h.insert(20);
-        h.insert(50);
+        h.insert(2);
+        h.insert(4);
+        h.insert(5);
+        h.insert(3);
         h.display();
         h.getSize();
 
